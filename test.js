@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('请输入字符串：', (string) => {
-  console.log(`result： ${ ArrayBufferToString(string) }`);
+rl.question('input something : ', (string) => {
+  console.log(`the result is :  ${ ArrayBufferToString(string) }`);
   rl.close();
 });
