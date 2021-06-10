@@ -1,0 +1,28 @@
+{
+  "name": "murmur3tostring",
+  "version": "1.0.1",
+  "description": "a tool using murmur3-128 , then output a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherleysong/murmur3tostring.git"
+  },
+  "keywords": [
+    "murmur3-128",
+    "toString",
+    "hash"
+  ],
+  "author": "sherleysong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherleysong/murmur3tostring/issues"
+  },
+  "homepage": "https://github.com/sherleysong/murmur3tostring#readme",
+  "dependencies": {
+    "murmur-128": "^0.2.1"
+  },
+  "type": "module"
+}
