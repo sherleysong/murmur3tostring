@@ -10,14 +10,11 @@ npm install --save murmur3tostring
 ```
 ## Usage
 ```
-import ArrayBufferToString from "./index.js"
+import murmur3tostring from "murmur3tostring"
 
-const string = "123"
-
-console.log(ArrayBufferToString(string))
+console.log(murmur3tostring("123"))
 
 // the result will be:  2f2b4d51086f407b086f407b086f407b
-
 ```
 ## Test
 
@@ -26,3 +23,12 @@ git clone and run
 ```
 npm run test
 ```
+
+we will see 
+```
+> node test.js
+
+input something : 123123
+the result is :  a5961fd5dc54299b60937c3160937c31
+```
+
